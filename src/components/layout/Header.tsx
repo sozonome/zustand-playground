@@ -15,7 +15,7 @@ const Header = () => {
     >
       <Link to="/">
         <Heading as="h1" size="sm">
-          vite-react-chakra-starter
+          vite-react-chakra-starter | zustand + immer
         </Heading>
       </Link>
 

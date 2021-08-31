@@ -6,8 +6,11 @@ export const theme = extendTheme({
     body: "Inter, sans-serif",
   },
   components: {
-    // Button: {
-    // }
+    Button: {
+      baseStyle: {
+        borderRadius: 24,
+      },
+    },
   },
   config: {
     initialColorMode: "light",

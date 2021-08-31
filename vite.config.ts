@@ -12,7 +12,8 @@ export default defineConfig({
     alias: {
       components: resolve(__dirname, "src/components"),
       styles: resolve(__dirname, "src/styles"),
-      routes: resolve(__dirname, "src/routes")
+      routes: resolve(__dirname, "src/routes"),
+      utils: resolve(__dirname, "src/utils")
     }
   },
 })
